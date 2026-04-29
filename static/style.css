@@ -1,0 +1,88 @@
+/* Background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c2c2c;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* Logout button */
+.logout {
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+/* Welcome text */
+h1 {
+    margin-top: 20px;
+}
+
+/* Form */
+.task-form input,
+.task-form select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Task card */
+li {
+    background: #f8f9fa;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Action icons */
+a {
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
